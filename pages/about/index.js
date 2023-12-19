@@ -19,48 +19,57 @@ import {
 //  data
 const aboutData = [
   {
-    title: 'skills',
+    key: 'skills',
+    title: 'Kỹ năng',
     info: [
       {
-        title: 'Web Development',
+        key: 'web-development',
+        title: 'Phát triển Web',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiMongodb />,
-          <SiNodedotjs />,
+          <FaHtml5 key="html5" />,
+          <FaCss3 key="css3" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <SiMongodb key="mongodb" />,
+          <SiNodedotjs key="nodejs" />,
         ],
       },
       {
-        title: 'UI/UX Design',
-        icons: [<SiAdobexd />, <SiAdobephotoshop />],
+        key: 'ui-ux-design',
+        title: 'Thiết kế UI/UX',
+        icons: [<SiAdobexd key="adobexd" />, <SiAdobephotoshop key="photoshop" />],
       },
     ],
   },
   {
-    title: 'awards',
+    key: 'awards',
+    title: 'Giải thưởng',
     info: [
       {
+        key: 'award-1',
         title: 'NO',
         stage: '2002 - 2023',
       },  
     ],
   },
   {
-    title: 'experience',
+    key: 'experience',
+    title: 'Kinh nghiệm',
     info: [
       {
-        title: 'Intern',
-        stage: '2023 - Now',
+        key: 'internship',
+        title: 'Thực tập',
+        stage: '2023 - Nay',
       },
       {
-        title: 'Study web design at the university',
-        stage: '2021 - Now',
+        key: 'study-web-design',
+        title: 'Học web design tại đại học',
+        stage: '2021 - Nay',
       },
     ],
   },
 ];
+
 
 //components
 import Avatar from '../../components/Avatar'
